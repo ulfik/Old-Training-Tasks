@@ -1,0 +1,45 @@
+.human{
+  width: 200px;
+  height: 230px;
+}
+.head {
+  height: 80px;
+  width: 70px;
+  border-style: solid;
+  border-color: black;
+  margin: 0 auto;
+  
+}
+
+.corpse {
+  height: 100px;
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.legs{
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+
+}
+.leg1 {
+  height: 50px;
+  width: 30px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
+.leg2 {
+  height: 50px;
+  width: 30px;
+  border-style: solid;
+  border-color: black;
+  float: right;
+}
+
+#bgcol{
+  background-color: green;
+}
+

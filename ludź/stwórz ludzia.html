@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>>>Stwórz wasnego ludzia<<</h1>
+    
+    <p>nadaj imie temu bytowi:</p>
+      <input type="text" value="wymysl cos ladnego <3" id="yourName"><br>
+    
+    <p>wybierz kolor skóry:</p>
+      <input type="radio" value="black" name="kolor" id="black">czarny<br>
+      <input type="radio" value="white" name="kolor" id="white">bialy<br>
+      <input type="radio" value="asian" name="kolor" id="asian">azjata<br>
+    
+    <p>jaka waga tego ludzia:</p>
+     <input type="checkbox" value="chudy">chudy<br>
+     <input type="checkbox" value="gruby">gruby<br>
+   
+    <p>secret identity:</p>
+      <select id="select" name="secretID">
+        <option value="batman">batman</option>
+        <option value="superman">superman</option>
+        <option value="spiderman">spiderman</option>    
+      </select>
+    <br><br><br>
+    
+    <input type="submit" value="stworz!!!" onclick="create()">
+    <br><br>
+    
+    <h2>Pacz tutaj:</h2>
+    <p>Oto jest:</p>
+    <p id="yourNameOutput"></p>
+    <br><br><br>
+    <div class="human">
+    <div class="head bodyColor" id="bgcol"></div>
+    <div class="corpse bodyColor" id="bgcol">
+        <div id="secretID"></div>
+    </div>
+    <div class="legs">
+    <div class="leg1 bodyColor" id="bgcol"></div>
+    <div class="leg2 bodyColor" id="bgcol"></div>
+    </div>
+    </div>
+    
+    
+    
+  </body>
+</html>
