@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
+
   <body>
-    <p class="stack"</p>
-    <button class="add" onclick="addBrick()">Add Brick</button>
-    <button class="remove" onclick="removeBrick">Remove Brick</button> 
+    <p id="stack"></p>
+    <button onclick="addBrick()">Add Brick</button>
+    <button onclick="removeBrick()">Remove Brick</button>
+    
   </body>
+
 </html>
