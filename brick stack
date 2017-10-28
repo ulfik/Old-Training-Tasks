@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="brick_style.css">
     <script src="script.js"></script>
   </head>
   <body>
-    <p id="stack"></p>
-    <button class="add" onclick="addBrick()">Add Brick</button>
-    <button class="remove" onclick="removeBrick()">Remove Brick</button> 
+    <div class="frame">
+      <div id="stack"></div>
+    </div>
+      <div class="btns">
+        <button class="btn" onclick="addBrick()">Add Brick</button>
+        <button class="btn" onclick="removeBrick()">Remove Brick</button> 
+      </div>
   </body>
 </html>
