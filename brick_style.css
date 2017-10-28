@@ -1,0 +1,26 @@
+.frame{
+    width:300px;
+    height: 260px;
+    position: relative;
+  
+}
+#stack{
+    position: absolute;
+    bottom: 0%;
+    width: 48px;
+    left: 50%;
+    margin-left: -24px;
+}
+
+.btns{
+    width:300px;
+    position: relative;
+}
+
+.btn{
+    width: 49%;
+    height: 25px;
+    background-color: rgb(33, 31, 31);
+    border: none;
+    color: white;
+}
